@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>More-ENVIRONMENT</title>
+<link rel="icon" href="website-icon.jpg" >
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+p{
+color: white;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav a:hover {
+  background-colour: #ddd;
+  colour: black;
+}
+
+h2{
+color : #04AA6D;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+a{
+  color: #3366ff;
+} 
+
+body {
+  background-image: url('background-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top of the page">Go to top</button>
+
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="initiatives.html">Initiatives</a>
+  <a class="active" href="newss.html">More</a>
+  <a href="about.html">About</a>
+</div>
+
+<div style="text-align:center">
+  <h2> <u> Introduction to environment </u> </h2><br>
+  <img src="environment-1.jpg" height="285px" width="500px"><br>
+  </div> 
+<p> → The environment refers to everything that surrounds us, including both living and non-living things such as soil, water, animals, and plants. <br>
+→ It is our basic life support system and is composed of living beings, physical surroundings, and climatic conditions. <br>
+→ The word "environment" describes the living and non-living surroundings that are relevant to organisms. It includes physical, chemical, and biological factors and processes.<br></p>
+
+<div style="text-align:center">
+  <h2> <u> Environmental problems </u> </h2>
+  <img src="environment-2.png" height="350px" width="700px"><br>
+  </div> 
+<p>→ Some common environmental problems include climate change, global warming, ozone layer depletion, water pollution, air pollution, solid waste management, deforestation, and resource depletion. <p>
+→ Climate change and global warming are caused by the increase in greenhouse gases in the atmosphere, primarily due to human activities such as burning fossil fuels. <br>
+→ Ozone layer depletion is caused by the release of certain chemicals, such as chlorofluorocarbons (CFCs), which deplete the protective ozone layer in the Earth's atmosphere. <br>
+→ Water pollution occurs when harmful substances, such as chemicals and waste, contaminate water sources, making them unsafe for human and animal consumption. <br>
+→ Air pollution is caused by the release of pollutants into the air, such as emissions from vehicles, industrial processes, and burning of fossil fuels. <br>
+→ Solid waste management involves the proper disposal and management of waste materials to prevent environmental pollution and health hazards. <br>
+→ Deforestation refers to the clearing of forests for various purposes, such as agriculture, urbanization, and logging, which leads to habitat loss and contributes to climate change. <br>
+→ Resource depletion occurs when natural resources, such as minerals, fossil fuels, and forests, are consumed at a faster rate than they can be replenished. <br></p>
+
+<div style="text-align:center">
+<h2> <u> Solutions for these environmental problems </u> </h2>
+<img src="environment-3.png" height="250px" width="400px"><br>
+</div> 
+<p>→ Reducing greenhouse gas emissions by transitioning to renewable energy sources and improving energy efficiency. <br>
+→ Implementing sustainable waste management practices, such as recycling and composting, to reduce the amount of waste sent to landfills. <br>
+→ Conserving water by using it efficiently, fixing leaks, and promoting water-saving technologies. <br>
+→ Promoting sustainable agriculture practices that minimize the use of chemicals and protect soil health. <br>
+→ Protecting and restoring natural habitats to preserve biodiversity and mitigate the effects of deforestation. <br>
+→ Raising awareness and educating the public about environmental issues to encourage individual and collective action.  <br></p>
+
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

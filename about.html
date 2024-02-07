@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About-ENVIRONMENT</title>
+<link rel="icon" href="website-icon.jpg" >
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a{
+  color: #3366ff;
+} 
+
+p{
+color: white;
+}
+
+body {
+  background-image: url('background-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd ;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav a:hover {
+  background-colour: #ddd;
+  colour: black;
+}
+
+a:hover{
+  background-color : #04AA6D;
+  color: black;
+} 
+
+h2{
+color : #04AA6D;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top of the page">Go to top</button>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="initiatives.html">Initiatives</a>
+  <a href="newss.html">More</a>
+  <a class="active" href="about.html">About</a>
+</div>
+
+<div style="text-align:center">
+<h2> <u> About </u> </h2>
+</div>
+
+  <p style="font-size: 20;text-align: left;"> 
+Email : akproductions013@gmail.com or iamhridhay@gmail.com <br>
+Tools : Notepad ( Windows 11 ) <br>
+    </p>
+ 
+<div style="text-align:center">
+<video width="50%" controls>
+  <source src="video-1.mp4" type="video/mp4">
+</video>
+<p> Video-1 : Overview👆 </p>
+
+<p> Video - 2 : Initiatives 👇 </p>
+<video width="50%" controls>
+  <source src="video-2.mp4" type="video/mp4">
+</video>
+</div>
+<div style="text-align:center">
+<h2> <u> Sources  </u></h2>
+</div>
+
+<p>
+Banner-video : <a href="https://www.pexels.com">Pixels</a> <br>
+Images : <a href="https://www.freepik.com">Freepik</a> <br>
+Video-1 : <a href="https://www.vidnoz.com">Vidnoz</a> - Turn text to video in minutes <br>
+Video-2 : <a href="https://www.youtube.com/@xprize">XPRIZE - Youtube</a> <br>
+</p>
+
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
